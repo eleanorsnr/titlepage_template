@@ -1,0 +1,67 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry {top=25mm, bottom=25mm, left=40mm, right=25mm} %set margins
+\usepackage{xcolor}
+\usepackage{lipsum}
+\usepackage{setspace}
+\linespread{1.5}
+\usepackage{fixltx2e}
+\usepackage{float} %for pictures
+\usepackage{multirow}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\graphicspath{ {Images/} }
+
+%TITLE PAGE
+
+\begin{document}
+	\newpage
+	\pagenumbering{gobble}
+		\begin{minipage}{1\linewidth}
+			\centering
+			
+			
+			%University logo
+			\includegraphics[width=0.50\textwidth]{Intro_figures/colour_logo_1849.png} %insert path to logo
+			
+			\vspace{1cm}
+			
+			{\Huge Write title here} \\
+			\setstretch{2.5}
+			\vspace{1cm}
+			\textbf{\large your name} \\
+			\vspace{1cm}
+			
+		\end{minipage}
+		    \vspace{1cm}
+        \begin{minipage}{1\linewidth}
+            \centering
+            \Large A thesis submitted to the  University  for the degree of \\DOCTOR OF PHILOSOPHY
+            
+        \end{minipage}
+        
+	 		\vspace{1cm}
+		
+		\begin{minipage}{0.9\linewidth}
+		    
+			\begin{flushright} 
+			
+				{\Large Institute \\
+					School \\
+					University \\
+					Date\\}
+			\end{flushright} 
+		\end{minipage}
+	
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%CONTENTS
+
+\linespread{1.5}
+\newpage
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+\linespread{1.5}
